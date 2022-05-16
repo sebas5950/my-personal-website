@@ -1,3 +1,5 @@
 const riley = document.getElementById("riley");
 
-console.log(riley);
+riley.addEventListener('click', function() {
+    riley.textContent = riley.textContent === 'Click Me' ? 'Return' : 'Click Me';
+});
